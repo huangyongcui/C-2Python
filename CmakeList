@@ -1,0 +1,2 @@
+dd_library(deepart_py SHARED deepart_py.cpp deepart.cpp)
+target_link_libraries(deepart_py libboost_python.so libpython2.7.so)
